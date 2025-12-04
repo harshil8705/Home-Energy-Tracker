@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="HttpHistory">
+    <option name="httpHistories">
+      <map>
+        <entry key="0">
+          <value>
+            <ReqHistory>
+              <option name="body" value="{&#10;  &quot;name&quot;: &quot;Harshil&quot;,&#10;  &quot;surname&quot;: &quot;Champaneri&quot;,&#10;  &quot;email&quot;: &quot;harshilchampaneri8705@gmail.com&quot;,&#10;  &quot;address&quot;: &quot;SAMP-Kankawati Park, After Rameshwar Township, Ratanpar, Surendranagar&quot;,&#10;  &quot;alerting&quot;: true,&#10;  &quot;energyAlertingThreshold&quot;: 12&#10;}" />
+              <option name="contentType" value="application/json" />
+              <option name="fileNames">
+                <array />
+              </option>
+              <option name="headers">
+                <map>
+                  <entry key="Content-Type" value="application/json" />
+                </map>
+              </option>
+              <option name="host" value="http://127.0.0.1:9090" />
+              <option name="id" value="0" />
+              <option name="method" value="POST" />
+              <option name="params">
+                <map />
+              </option>
+              <option name="res" value="{&quot;userId&quot;:1,&quot;name&quot;:&quot;Harshil&quot;,&quot;surname&quot;:&quot;Champaneri&quot;,&quot;email&quot;:&quot;harshilchampaneri8705@gmail.com&quot;,&quot;address&quot;:&quot;SAMP-Kankawati Park, After Rameshwar Township, Ratanpar, Surendranagar&quot;,&quot;alerting&quot;:true,&quot;energyAlertingThreshold&quot;:12.0}" />
+              <option name="time" value="2025-12-04 15:04:53" />
+              <option name="uri" value="/api/v1/user" />
+            </ReqHistory>
+          </value>
+        </entry>
+        <entry key="1">
+          <value>
+            <ReqHistory>
+              <option name="body" value="{&#10;  &quot;name&quot;: &quot;Sagar&quot;,&#10;  &quot;surname&quot;: &quot;Shrivastava&quot;,&#10;  &quot;email&quot;: &quot;shrisagar@gmail.com&quot;,&#10;  &quot;address&quot;: &quot;Kripalu Dham Mangadh, Uttar Pradesh, India&quot;,&#10;  &quot;alerting&quot;: false,&#10;  &quot;energyAlertingThreshold&quot;: 0&#10;}" />
+              <option name="contentType" value="application/json" />
+              <option name="fileNames">
+                <array />
+              </option>
+              <option name="headers">
+                <map>
+                  <entry key="Content-Type" value="application/json" />
+                </map>
+              </option>
+              <option name="host" value="http://127.0.0.1:9090" />
+              <option name="id" value="1" />
+              <option name="method" value="POST" />
+              <option name="params">
+                <map />
+              </option>
+              <option name="res" value="{&quot;userId&quot;:2,&quot;name&quot;:&quot;Sagar&quot;,&quot;surname&quot;:&quot;Shrivastava&quot;,&quot;email&quot;:&quot;shrisagar@gmail.com&quot;,&quot;address&quot;:&quot;Kripalu Dham Mangadh, Uttar Pradesh, India&quot;,&quot;alerting&quot;:false,&quot;energyAlertingThreshold&quot;:0.0}" />
+              <option name="time" value="2025-12-04 15:32:07" />
+              <option name="uri" value="/api/v1/user" />
+            </ReqHistory>
+          </value>
+        </entry>
+        <entry key="2">
+          <value>
+            <ReqHistory>
+              <option name="body" value="" />
+              <option name="contentType" value="application/x-www-form-urlencoded" />
+              <option name="fileNames">
+                <array />
+              </option>
+              <option name="headers">
+                <map />
+              </option>
+              <option name="host" value="http://127.0.0.1:9090" />
+              <option name="id" value="2" />
+              <option name="method" value="GET" />
+              <option name="params">
+                <map>
+                  <entry key="id" value="1" />
+                </map>
+              </option>
+              <option name="res" value="{&quot;userId&quot;:1,&quot;name&quot;:&quot;Harshil&quot;,&quot;surname&quot;:&quot;Champaneri&quot;,&quot;email&quot;:&quot;harshilchampaneri8705@gmail.com&quot;,&quot;address&quot;:&quot;SAMP-Kankawati Park, After Rameshwar Township, Ratanpar, Surendranagar&quot;,&quot;alerting&quot;:true,&quot;energyAlertingThreshold&quot;:12.0}" />
+              <option name="time" value="2025-12-04 15:32:24" />
+              <option name="uri" value="/api/v1/user/{id}" />
+            </ReqHistory>
+          </value>
+        </entry>
+        <entry key="3">
+          <value>
+            <ReqHistory>
+              <option name="body" value="" />
+              <option name="contentType" value="application/x-www-form-urlencoded" />
+              <option name="fileNames">
+                <array />
+              </option>
+              <option name="headers">
+                <map />
+              </option>
+              <option name="host" value="http://127.0.0.1:9090" />
+              <option name="id" value="3" />
+              <option name="method" value="GET" />
+              <option name="params">
+                <map>
+                  <entry key="id" value="2" />
+                </map>
+              </option>
+              <option name="res" value="{&quot;userId&quot;:2,&quot;name&quot;:&quot;Sagar&quot;,&quot;surname&quot;:&quot;Shrivastava&quot;,&quot;email&quot;:&quot;shrisagar@gmail.com&quot;,&quot;address&quot;:&quot;Kripalu Dham Mangadh, Uttar Pradesh, India&quot;,&quot;alerting&quot;:false,&quot;energyAlertingThreshold&quot;:0.0}" />
+              <option name="time" value="2025-12-04 15:32:32" />
+              <option name="uri" value="/api/v1/user/{id}" />
+            </ReqHistory>
+          </value>
+        </entry>
+        <entry key="4">
+          <value>
+            <ReqHistory>
+              <option name="body" value="" />
+              <option name="contentType" value="application/x-www-form-urlencoded" />
+              <option name="fileNames">
+                <array />
+              </option>
+              <option name="headers">
+                <map />
+              </option>
+              <option name="host" value="http://127.0.0.1:9090" />
+              <option name="id" value="4" />
+              <option name="method" value="GET" />
+              <option name="params">
+                <map>
+                  <entry key="id" value="3" />
+                </map>
+              </option>
+              <option name="res" value="&lt;html&gt;&lt;body&gt;&lt;h1&gt;Whitelabel Error Page&lt;/h1&gt;&lt;p&gt;This application has no explicit mapping for /error, so you are seeing this as a fallback.&lt;/p&gt;&lt;div id='created'&gt;Thu Dec 04 15:32:44 IST 2025&lt;/div&gt;&lt;div&gt;There was an unexpected error (type=Internal Server Error, status=500).&lt;/div&gt;&lt;/body&gt;&lt;/html&gt;" />
+              <option name="time" value="2025-12-04 15:32:44" />
+              <option name="uri" value="/api/v1/user/{id}" />
+            </ReqHistory>
+          </value>
+        </entry>
+        <entry key="5">
+          <value>
+            <ReqHistory>
+              <option name="body" value="{&#10;  &quot;name&quot;: &quot;Sagar&quot;,&#10;  &quot;surname&quot;: &quot;Sinha&quot;,&#10;  &quot;email&quot;: &quot;sagarsinha@gmail.com&quot;,&#10;  &quot;address&quot;: &quot;Mangadh, Uttar Pradesh, India&quot;,&#10;  &quot;alerting&quot;: false,&#10;  &quot;energyAlertingThreshold&quot;: 0&#10;}" />
+              <option name="contentType" value="application/json" />
+              <option name="fileNames">
+                <array />
+              </option>
+              <option name="headers">
+                <map>
+                  <entry key="Content-Type" value="application/json" />
+                </map>
+              </option>
+              <option name="host" value="http://127.0.0.1:9090" />
+              <option name="id" value="5" />
+              <option name="method" value="PUT" />
+              <option name="params">
+                <map>
+                  <entry key="id" value="2" />
+                </map>
+              </option>
+              <option name="res" value="{&quot;userId&quot;:2,&quot;name&quot;:&quot;Sagar&quot;,&quot;surname&quot;:&quot;Sinha&quot;,&quot;email&quot;:&quot;sagarsinha@gmail.com&quot;,&quot;address&quot;:&quot;Mangadh, Uttar Pradesh, India&quot;,&quot;alerting&quot;:false,&quot;energyAlertingThreshold&quot;:0.0}" />
+              <option name="time" value="2025-12-04 15:34:20" />
+              <option name="uri" value="/api/v1/user/{id}" />
+            </ReqHistory>
+          </value>
+        </entry>
+        <entry key="6">
+          <value>
+            <ReqHistory>
+              <option name="body" value="" />
+              <option name="contentType" value="application/x-www-form-urlencoded" />
+              <option name="fileNames">
+                <array />
+              </option>
+              <option name="headers">
+                <map />
+              </option>
+              <option name="host" value="http://127.0.0.1:9090" />
+              <option name="id" value="6" />
+              <option name="method" value="DELETE" />
+              <option name="params">
+                <map>
+                  <entry key="id" value="2" />
+                </map>
+              </option>
+              <option name="res" value="User with userId: 2 deleted Successfully." />
+              <option name="time" value="2025-12-04 15:34:35" />
+              <option name="uri" value="/api/v1/user/{id}" />
+            </ReqHistory>
+          </value>
+        </entry>
+        <entry key="7">
+          <value>
+            <ReqHistory>
+              <option name="body" value="" />
+              <option name="contentType" value="application/x-www-form-urlencoded" />
+              <option name="fileNames">
+                <array />
+              </option>
+              <option name="headers">
+                <map />
+              </option>
+              <option name="host" value="http://127.0.0.1:9090" />
+              <option name="id" value="7" />
+              <option name="method" value="GET" />
+              <option name="params">
+                <map>
+                  <entry key="id" value="2" />
+                </map>
+              </option>
+              <option name="res" value="&lt;html&gt;&lt;body&gt;&lt;h1&gt;Whitelabel Error Page&lt;/h1&gt;&lt;p&gt;This application has no explicit mapping for /error, so you are seeing this as a fallback.&lt;/p&gt;&lt;div id='created'&gt;Thu Dec 04 15:34:48 IST 2025&lt;/div&gt;&lt;div&gt;There was an unexpected error (type=Internal Server Error, status=500).&lt;/div&gt;&lt;/body&gt;&lt;/html&gt;" />
+              <option name="time" value="2025-12-04 15:34:48" />
+              <option name="uri" value="/api/v1/user/{id}" />
+            </ReqHistory>
+          </value>
+        </entry>
+        <entry key="8">
+          <value>
+            <ReqHistory>
+              <option name="body" value="" />
+              <option name="contentType" value="application/x-www-form-urlencoded" />
+              <option name="fileNames">
+                <array />
+              </option>
+              <option name="headers">
+                <map />
+              </option>
+              <option name="host" value="http://127.0.0.1:9090" />
+              <option name="id" value="8" />
+              <option name="method" value="GET" />
+              <option name="params">
+                <map>
+                  <entry key="id" value="1" />
+                </map>
+              </option>
+              <option name="res" value="{&quot;userId&quot;:1,&quot;name&quot;:&quot;Harshil&quot;,&quot;surname&quot;:&quot;Champaneri&quot;,&quot;email&quot;:&quot;harshilchampaneri8705@gmail.com&quot;,&quot;address&quot;:&quot;SAMP-Kankawati Park, After Rameshwar Township, Ratanpar, Surendranagar&quot;,&quot;alerting&quot;:true,&quot;energyAlertingThreshold&quot;:12.0}" />
+              <option name="time" value="2025-12-04 15:35:00" />
+              <option name="uri" value="/api/v1/user/{id}" />
+            </ReqHistory>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
