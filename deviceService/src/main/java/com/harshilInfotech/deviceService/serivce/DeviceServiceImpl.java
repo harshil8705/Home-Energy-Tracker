@@ -2,6 +2,7 @@ package com.harshilInfotech.deviceService.serivce;
 
 import com.harshilInfotech.deviceService.dto.DeviceDto;
 import com.harshilInfotech.deviceService.entity.Device;
+import com.harshilInfotech.deviceService.exception.DeviceNotFoundException;
 import com.harshilInfotech.deviceService.repository.DeviceRepository;
 import com.harshilInfotech.deviceService.util.DeviceDtoBuilder;
 import lombok.RequiredArgsConstructor;
@@ -16,7 +17,7 @@ public class DeviceServiceImpl implements DeviceService{
 
     private Device getDeviceByDeviceId(Long id) {
         return deviceRepository.findById(id)
-                .orElseThrow(() -> new RuntimeException("No Device found by deviceId: " + id));
+                .orElseThrow(() -> new DeviceNotFoundException("No Device found by deviceId: " + id));
     }
 
     @Override

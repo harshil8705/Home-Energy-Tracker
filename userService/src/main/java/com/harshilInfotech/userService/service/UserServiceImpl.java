@@ -2,6 +2,7 @@ package com.harshilInfotech.userService.service;
 
 import com.harshilInfotech.userService.dto.UserDto;
 import com.harshilInfotech.userService.entity.User;
+import com.harshilInfotech.userService.exception.UserNotFoundException;
 import com.harshilInfotech.userService.repository.UserRepository;
 import com.harshilInfotech.userService.util.UserBuilder;
 import jakarta.validation.Valid;
@@ -20,7 +21,7 @@ public class UserServiceImpl implements UserService{
     private User findUserById(Long userId) {
 
         return userRepository.findById(userId)
-                .orElseThrow(() -> new RuntimeException("No User found by userId: " + userId));
+                .orElseThrow(() -> new UserNotFoundException("No User found by userId: " + userId));
 
     }
 
