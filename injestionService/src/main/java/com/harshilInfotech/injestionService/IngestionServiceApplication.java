@@ -4,10 +4,11 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class InjestionServiceApplication {
+public class IngestionServiceApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(InjestionServiceApplication.class, args);
+		SpringApplication.run(IngestionServiceApplication.class, args);
 	}
 
 }
+
